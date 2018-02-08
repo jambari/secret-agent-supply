@@ -81,3 +81,65 @@ a {
     color: white;
     text-decoration:none;
 }
+
+/*products stles */
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem 0 0 0;
+}
+
+.item {
+    width: 30%;
+    border: 4px solid black;
+}
+
+.item-image img {
+    align-items: center;
+    width: 9rem;
+    height: 9rem;
+    justify-content: center;
+    padding: 3rem 4rem;
+}
+
+.item span {
+    display: block;
+    background-color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+/*Location */
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0 0 0;
+}
+
+.info {
+    min-width: 35%;
+}
+
+.title {
+    background-color: black;
+    display: block;
+    padding: 1rem 2rem;
+}
+
+.detail {
+    color: black;
+    display: block;
+}
+
+/*footer */
+
+footer {
+    padding: 5rem;
+    width: 100%;
+    background-color: black;
+    margin: 4rem 0 0 0 ;
+}
+
